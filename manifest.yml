@@ -1,0 +1,21 @@
+---
+applications:
+  - name: aviation-service-bulletin-data-svc
+    buildpack: nodejs_buildpack
+    memory: 256M
+    disk_quota: 1G
+    host: service-bulletin-data-svc-dev
+    path: dist
+    command: node app.js
+    services:
+      - aviation-service-bulletin-postgres
+      - service-bulletin-creds
+    env:
+      DEBUG: "app:*"
+      DATA_STORE_NAME: "aviation-service-bulletin-postgres"
+      DATA_SERVICE_NAME: "postgres"
+      DATA_SERVICES_INSTANCE_NAME: "service-bulletin-creds"
+      DB_CONNECTION_POOL_MIN: 2
+      DB_CONNECTION_POOL_MAX: 10
+      TRUSTED_ISSUERS: https://a99b7fee-a495-4161-89c3-faa83054627d.predix-uaa.run.asv-pr.ice.predix.io/oauth/token
+      RESOURCE_ACCESS_SCOPE: aviation-service-bulletin-data-svc-dev.user

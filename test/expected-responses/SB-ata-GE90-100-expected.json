@@ -1,0 +1,30 @@
+[
+  {
+	"id": "2281",
+	"sb_id": "11942",
+	"sb_number": "72-0002",
+	"sb_version": "2",
+	"ata": "72-00-01",
+	"created_by": null,
+	"created_date": "2016-11-30T01:24:42.279Z",
+	"last_modified_by": null,
+	"last_modified_date": "2016-11-30T01:24:42.279Z",
+	"level_of_disassembly": null,
+	"status": "ACTIVE",
+	"ServiceBulletin": {}
+  },
+  {
+	"id": "2282",
+	"sb_id": "11942",
+	"sb_number": "72-0002",
+	"sb_version": "2",
+	"ata": "72-00-02",
+	"created_by": null,
+	"created_date": "2016-11-30T01:24:42.279Z",
+	"last_modified_by": null,
+	"last_modified_date": "2016-11-30T01:24:42.279Z",
+	"level_of_disassembly": null,
+	"status": "ACTIVE",
+	"ServiceBulletin": {}
+  }
+]

@@ -1,0 +1,247 @@
+{
+  "family": "GE90",
+  "createdBy": "ADMIN",
+  "lastModifiedBy": "ADMIN",
+  "createdDate": "2016-10-31T18:35:57.539Z",
+  "lastModifiedDate": "2016-10-31T18:35:57.539Z",
+  "hierarchy": {
+    "moduleId": 1,
+    "moduleNumber": "M10",
+    "moduleName": "Engine Assembly",
+    "ata": "72-00-00",
+    "parentModuleId": 0,
+    "partNumberPattern": "2115M10G",
+    "children": [
+      {
+        "moduleId": 2,
+        "moduleNumber": "M10",
+        "moduleName": "Rotating Hardware",
+        "ata": "72-21-00",
+        "parentModuleId": 1,
+        "partNumberPattern": "2115M10G"
+      },
+      {
+        "moduleId": 3,
+        "moduleNumber": "M15",
+        "moduleName": "Fan Case Assembly",
+        "ata": "72-00-06",
+        "parentModuleId": 1,
+        "partNumberPattern": "2115M17G"
+      },
+      {
+        "moduleId": 4,
+        "moduleNumber": "M80",
+        "moduleName": "Lower Bifurcation",
+        "ata": "72-00-25",
+        "parentModuleId": 1,
+        "partNumberPattern": "2115M80G"
+      },
+      {
+        "moduleId": 5,
+        "moduleNumber": "M20",
+        "moduleName": "Base Engine Assembly",
+        "ata": "72-00-00",
+        "parentModuleId": 1,
+        "partNumberPattern": "2115M20G",
+        "children": [
+          {
+            "moduleId": 6,
+            "moduleNumber": "M50",
+            "moduleName": "Core Module Assy",
+            "ata": "72-00-02",
+            "parentModuleId": 5,
+            "partNumberPattern": "2115M50G",
+            "children": [
+              {
+                "moduleId": 7,
+                "moduleNumber": "M53",
+                "moduleName": "Compressor Module Assy",
+                "ata": "72-30-00",
+                "parentModuleId": 6,
+                "partNumberPattern": "2115M53G",
+                "children": [
+                  {
+                    "moduleId": 8,
+                    "moduleNumber": "M51",
+                    "moduleName": "Compressor Rotor Assy",
+                    "ata": "72-30-00",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M51G"
+                  },
+                  {
+                    "moduleId": 9,
+                    "moduleNumber": "M52",
+                    "moduleName": "Compressor Stator Assy",
+                    "ata": "72-32-00",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M52G"
+                  },
+                  {
+                    "moduleId": 10,
+                    "moduleNumber": "M40",
+                    "moduleName": "Fan Booster Compressor Assy",
+                    "ata": "72-00-01",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M40G"
+                  },
+                  {
+                    "moduleId": 11,
+                    "moduleNumber": "M21",
+                    "moduleName": "Fan Rotor Stator Assy",
+                    "ata": "72-21-00",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M21G"
+                  },
+                  {
+                    "moduleId": 12,
+                    "moduleNumber": "M23",
+                    "moduleName": "No1R  Bearing Assy",
+                    "ata": "72-22-00",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M23G"
+                  },
+                  {
+                    "moduleId": 13,
+                    "moduleNumber": "M24",
+                    "moduleName": "No2B Bearing Assy",
+                    "ata": "72-26-00",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M24G"
+                  },
+                  {
+                    "moduleId": 14,
+                    "moduleNumber": "M31",
+                    "moduleName": "Fan Frame Assy",
+                    "ata": "72-23-00",
+                    "parentModuleId": 7,
+                    "partNumberPattern": "2115M31G",
+                    "children": [
+                      {
+                        "moduleId": 15,
+                        "moduleNumber": "M32",
+                        "moduleName": "No3 Brg Inlet Gearbox",
+                        "ata": "72-61-00",
+                        "parentModuleId": 14,
+                        "partNumberPattern": "2115M32G"
+                      },
+                      {
+                        "moduleId": 16,
+                        "moduleNumber": "M33",
+                        "moduleName": "Transfer Gearbox",
+                        "ata": "72-62-00",
+                        "parentModuleId": 14,
+                        "partNumberPattern": "2115M33G"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "moduleId": 17,
+                "moduleNumber": "M59",
+                "moduleName": "HP Turbine  Module Assy",
+                "ata": "72-50-00",
+                "parentModuleId": 6,
+                "partNumberPattern": "738L859G",
+                "children": [
+                  {
+                    "moduleId": 18,
+                    "moduleNumber": "M45",
+                    "moduleName": "Comb Diffuser Assy",
+                    "ata": "72-40-00",
+                    "parentModuleId": 17,
+                    "partNumberPattern": "2115M45G",
+                    "children": [
+                      {
+                        "moduleId": 19,
+                        "moduleNumber": "M54",
+                        "moduleName": "Combutor  Assy",
+                        "ata": "72-42-00",
+                        "parentModuleId": 18,
+                        "partNumberPattern": "2115M54G"
+                      },
+                      {
+                        "moduleId": 20,
+                        "moduleNumber": "M55",
+                        "moduleName": "Stg1 HPT Nozzle Assy",
+                        "ata": "72-51-00",
+                        "parentModuleId": 18,
+                        "partNumberPattern": "2115M55G"
+                      }
+                    ]
+                  },
+                  {
+                    "moduleId": 21,
+                    "moduleNumber": "M56",
+                    "moduleName": "S2 Nozzle Assy",
+                    "ata": "72-52-00",
+                    "parentModuleId": 17,
+                    "partNumberPattern": "2115M56G"
+                  },
+                  {
+                    "moduleId": 22,
+                    "moduleNumber": "M57",
+                    "moduleName": "HPT Rotor Assy",
+                    "ata": "72-53-00",
+                    "parentModuleId": 17,
+                    "partNumberPattern": "2115M57G"
+                  },
+                  {
+                    "moduleId": 23,
+                    "moduleNumber": "M58",
+                    "moduleName": "Turb Centre Frame Assy",
+                    "ata": "72-54-00",
+                    "parentModuleId": 17,
+                    "partNumberPattern": "2115M58G"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "moduleId": 24,
+            "moduleNumber": "M60",
+            "moduleName": "LP Turbine  Assy",
+            "ata": "72-00-04",
+            "parentModuleId": 5,
+            "partNumberPattern": "2115M60G",
+            "children": [
+              {
+                "moduleId": 25,
+                "moduleNumber": "M61",
+                "moduleName": "LP Rotor Stator Assy",
+                "ata": "72-56-00",
+                "parentModuleId": 24,
+                "partNumberPattern": "2115M61G"
+              },
+              {
+                "moduleId": 26,
+                "moduleNumber": "M63",
+                "moduleName": "Turbine Rear Frame Assy",
+                "ata": "72-57-00",
+                "parentModuleId": 24,
+                "partNumberPattern": "2115M63G"
+              },
+              {
+                "moduleId": 27,
+                "moduleNumber": "M64",
+                "moduleName": "LP Mid Shaft Assy",
+                "ata": "72-58-00",
+                "parentModuleId": 24,
+                "partNumberPattern": "2115M64G"
+              }
+            ]
+          },
+          {
+            "moduleId": 28,
+            "moduleNumber": "M71",
+            "moduleName": "Accessory Gearbox Assy",
+            "ata": "72-00-05",
+            "parentModuleId": 5,
+            "partNumberPattern": "2115M71G"
+          }
+        ]
+      }
+    ]
+  }
+}

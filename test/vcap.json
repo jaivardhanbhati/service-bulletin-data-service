@@ -1,0 +1,44 @@
+{
+  "postgres": [
+    {
+      "credentials": {
+        "uri": "dburi"
+      },
+      "label": "postgres",
+      "name": "aviation-service-bulletin-postgres"
+    }
+  ],
+  "user-provided": [
+    {
+      "credentials": {
+        "acsUri": "https://test.acs.predix.io",
+        "trusted_issuers": [
+          "https://test.uaa.predix.io/oauth/token"
+        ],
+        "uaa": {
+          "clientId": "testClient",
+          "clientSecret": "testSecret",
+          "uri": "https://test.uaa.predix.io/oauth/token"
+        },
+        "zoneId": "test-zone-id"
+      },
+      "label": "user-provided",
+      "name": "test-acs-config",
+      "syslog_drain_url": "",
+      "tags": []
+    },
+	{
+	  "credentials": {
+		"authServerURL": "https://test/token.oauth2",
+		"clientId": "client",
+		"clientSecret": "secret",
+		"scope": "api",
+		"serviceBulletinUrl": "https://dev.api.ge.com/servicebulletinpricing"
+	  },
+	  "label": "user-provided",
+	  "name": "service-bulletin-creds",
+	  "syslog_drain_url": "",
+	  "tags": []
+	}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "sb_number": "72-0226",
+  "sb_version": "9",
+  "sb_id": "373",
+  "title": "ENGINE - Low Pressure Turbine Rotor/Stator Assembly (72-56-00) - Stage 6 LPT Blade Replacement",
+  "description": null,
+  "engine_model": "GE90-115B",
+  "compliance_category": "7",
+  "impact_category": null,
+  "esn_applicability": null,
+  "status": "ACCEPTED",
+  "active": true,
+  "created_by": "JOB",
+  "created_date": "2016-11-03T23:14:29.495Z",
+  "last_modified_by": "ADMIN",
+  "last_modified_date": "2016-11-15T05:53:57.494Z",
+  "ServiceBulletinATA": [
+	{
+	  "id": "242",
+	  "sb_id": "373",
+	  "sb_number": "72-0227",
+	  "sb_version": "9",
+	  "ata": "72-56-00",
+	  "created_by": null,
+	  "created_date": "2016-11-03T23:14:30.563Z",
+	  "last_modified_by": "ADMIN",
+	  "last_modified_date": "2016-11-15T05:53:55.476Z",
+	  "level_of_disassembly": "2"
+	}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "sbDetails": [
+	{
+	  "sbNumber": "GE90-100-72-0002",
+	  "sbTitle": "STAGE 2 SHROUDS AND C-CLIPS",
+	  "revNumber": "01",
+	  "levelCode": "3",
+	  "engineModel": "GE90-100",
+	  "engineSeries": "115B",
+	  "complianceDate": "2012-11-17 00:00:00",
+	  "complianceLocation": "GEES - WALES",
+	  "complianceTsn": "23594",
+	  "complianceCsn": "3429",
+	  "narrative": "Compliance Entered by FDMINT interface for Service Bulletin GE90-100-72-0041 Rev 01 with Part No. GE90-100",
+	  "esn": "906252",
+	  "tailNumber": "A6-EGX",
+	  "esnRange": null
+	}
+  ]
+}

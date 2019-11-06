@@ -1,0 +1,11 @@
+instrumentation:
+  root: ./src
+  include-all-sources: true
+reporting:
+  reports:
+    - lcov
+    - json
+    - text
+    - text-summary
+    - html
+    - cobertura
